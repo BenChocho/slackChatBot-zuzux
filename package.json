@@ -1,0 +1,16 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "Bot pour le serveur des Zuzux",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "Benjamin Chollet",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "slackbots": "^1.1.0"
+  }
+}
