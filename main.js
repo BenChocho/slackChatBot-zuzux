@@ -43,7 +43,21 @@ function handleMessage(message) {
     randomDate();
   } else if (message.includes('rs')) {
     instaSjokz();
+  } else if (message.includes('fnc')) {
+    fncFan();
   }
+}
+
+function fncFan() {
+    const params = {
+        icon_emoji: '',
+    };
+
+    bot.postMessageToChannel(
+        'general',
+        'J\'ai sucé Rekkles !',
+        params,
+    );
 }
 
 function instaSjokz() {
