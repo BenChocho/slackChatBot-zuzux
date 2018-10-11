@@ -49,8 +49,28 @@ function handleMessage(message) {
     benJoke();
   } else if (message.includes('Mariage')) {
     loveAsk();
+  } else if (message.includes('Tribal')) {
+    tribalJoke();
   }
 }
+
+function tribalJoke() {
+    const params = {
+        icon_emoji: '',
+    };
+
+    bot.postMessageToChannel(
+        'general',
+        'J\'veux qu\'tout le monde bouge ses fesses,\n' +
+        '    Qu\'les femmes oublient leurs complexes,\n' +
+        'Façon sexe, oh ouais.\n' +
+        '    Oui maintenant faut qu\'ça bouge,\n' +
+        'Que tout le monde soit dans l\'move,\n' +
+        'Façon sexe, oh ouais.',
+        params,
+    );
+}
+
 
 function loveAsk() {
     const params = {
