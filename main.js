@@ -45,7 +45,21 @@ function handleMessage(message) {
     instaSjokz();
   } else if (message.includes('fnc')) {
     fncFan();
+  } else if (message.includes('Benash')) {
+    benJoke();
   }
+}
+
+function benJoke() {
+    const params = {
+        icon_emoji: '',
+    };
+
+    bot.postMessageToChannel(
+        'general',
+        'Hey le chômeur on te parle !',
+        params,
+    );
 }
 
 function fncFan() {
