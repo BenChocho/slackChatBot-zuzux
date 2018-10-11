@@ -47,7 +47,7 @@ function handleMessage(message) {
     fncFan();
   } else if (message.includes('Benash')) {
     benJoke();
-  } else if (message.includes('Sjokz et Benash')) {
+  } else if (message.includes('Mariage')) {
     loveAsk();
   }
 }
