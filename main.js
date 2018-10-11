@@ -47,7 +47,21 @@ function handleMessage(message) {
     fncFan();
   } else if (message.includes('Benash')) {
     benJoke();
+  } else if (message.includes('Sjokz et Benash')) {
+    loveAsk();
   }
+}
+
+function loveAsk() {
+    const params = {
+        icon_emoji: '',
+    };
+
+    bot.postMessageToChannel(
+        'general',
+        'Benash je t\'aime de tout mon coeur et depuis que je t\'ai rencontré je ne fais que penser à toi, même si tu as baisé Noémie',
+        params,
+    );
 }
 
 function benJoke() {
