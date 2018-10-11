@@ -52,7 +52,7 @@ function instaSjokz() {
   };
 
   bot.postMessageToChannel(
-    'test',
+    'general',
     'POULOULOU https://www.instagram.com/eefjah/',
     params,
   );
