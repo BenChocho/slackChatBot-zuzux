@@ -45,7 +45,7 @@ function handleMessage(message) {
     instaSjokz();
   } else if (message.includes('fnc')) {
     fncFan();
-  } else if (message.includes('Benash')) {
+  } else if (message.includes('@Benash')) {
     benJoke();
   }
 }
